@@ -39,106 +39,96 @@ export default [
        */
 
       p(
-        `**重庆邮电大学 · 红岩网校工作站** [Link](https://redrock.team/aboutus/)`,
-        `2018.8 - 2020.6`
+        `## 重庆邮电大学 · 红岩网校工作站 `,
+        `(2020.9 - 至今)[Link](https://redrock.team/#/)`
       ),
       p(
-        `隶属校团委的学生互联网组织，成立于2000年，共有成员70余人，拥有 PRD-UI-前后端开发-运营-迭代的完整开发流程。`
+        `隶属校团委的学生互联网组织，成立于2000年，共有成员90余人，其中包含产品、视觉、运维、移动端、前端、后端部门，拥有 PRD-UI-移动端/前后端开发-运营-迭代 的*完整开发流程*。`
       ),
-      p(`*红岩网校工作站 · Web研发部干事<small>（2018.8 - 2019.6）</small>* `),
-      p(`*红岩网校工作站 · 站长<small>（2019.6 - 2020.6）</small>* `),
+      p(`*红岩网校工作站 · Android学员<small>（2020.9 - 2021.8）</small>* `),
+      p(`*红岩网校工作站 · Android干事<small>（2021.9 - 2022.8）</small>* `),
       p(
-        `曾主持开发了网校若干前端项目，参与上线维护、代码重构、项目迁移/部署。`
-      ),
-      p(
-        `着力推动部门内开发流程优化与协作规范，促成了内部 matono、Sentry、前端 CI/CD 等平台的搭建以及飞书、蓝湖等团队协作平台的接入。`
-      ),
-      p(`**北京字节跳动科技有限公司 · Enterprise Application**`),
-      p(
-        `*Enterprise Application · 前端开发实习生<small>（2020.2 - 2020.8）</small>*`
+        '- 负责掌上重邮 Android 端的代码维护',
+        '[Source](https://github.com/RedrockMobile/CyxbsMobile_Android)'
       ),
       p(
-        `参与内部aPaas产品的开发工作，致力于为公司内中后台业务场景提供简单应用搭建方案。`
+        '- 参与了掌上重邮 store 模块的开发',
+        '[Source](https://github.com/RedrockMobile/CyxbsMobile_Android/tree/develop/module_store)'
       ),
       p(
-        `面向中后台复杂场景，我参考[Formily](https://formilyjs.org/#/bdCRC5/dzUZU8il)等表单解决方案，改进原有的JSON Schema方案，为复杂表单联动提供统一协议，实现联动的定制化。`
+        '- 负责了掌上重邮核心业务 course 模块迭代工作',
+        '[Source](https://github.com/RedrockMobile/CyxbsMobile_Android/tree/develop/module_course)'
       ),
-      p(
-        `使用VSCode核心组件monaco-editor完成浏览器中的线上代码编辑器开发，完善了产品的low code开发能力。`
-      ),
+      p(`*红岩网校工作站 · 移动副站<small>（2022.8 - 至今）</small>* `),
+      p('- 负责移动开发部门的整体规划和开发进度的管理'),
+      p(`- 负责了掌上重邮基层模块迁移以及重构工作`),
+      p(`- 多次与学校团委和校级组织进行对接`),
     ],
   },
   {
     title: '个人能力',
     content: [
-      p(
-        `- *熟练掌握基本技能。* 熟悉 HTML5、CSS3、ES6+、响应式布局等，会基本的数据结构与算法。`
-      ),
-      p(
-        '- *简单了解并实践过前端工程化。* 使用 Webpack 搭建过前端开发环境、写过简单的前端自动化脚本。使用 ESLint、Prettier 进行代码格式化。使用过 CSS 预处理语言。'
-      ),
-      p(
-        '- *了解基本的代码调试、优化、前端安全。* 使用过异常监测工具、会使用 Chrome devTools 的基本功能、做过代理抓包调试、进行过代码优化。了解常见的前端安全隐患及防备措施。'
-      ),
-      p(
-        '- *简单了解后端的基础知识。* 知道 HTTP(S) 协议、DNS 解析相关基础知识，使用过 CDN 服务。写过简单的 NodeJS Server，写过入门级的 Shell 脚本、配置过简单的 Nginx 服务器。'
-      ),
-      p(
-        '- *简单了解当下热门的框架。* 简单了解 MV* 框架，简单了解 Vue 的基础知识和部分原理。'
-      ),
-      p(
-        '- *奖项证书：* 国家级奖学金一次、校级奖学金一次；微信小程序应用开发赛（小游戏类别）全国三等奖'
-      ),
-      p(
-        `- *人事管理：* 管理过校内70余人的互联网团队。负责部门内人事调度，项目分配，项目进度跟踪，召开周会，学员培训，服务器维护等工作。`
-      ),
+      p(`- *熟练掌握基本技能:* 熟悉 Java、**Kotlin**、Git、Android Studio 使用，会基本的数据结构与算法。`),
+      p('- *熟练使用常用组件:* 如 **RecyclerView**、Activity、Fragment、View 等。'),
+      p('- *熟悉消息机制:* 了解消息机制中的 **Handler**、MessageQueue 和 Looper 等核心类，能够理解消息机制的基本原理和流程。'),
+      p('- *熟悉事件分发:* 能够深入了解 View 层次结构和**事件分发**流程，并根据需求实现自定义的事件分发逻辑。'),
+      p('- *了解绘制流程:* 熟悉的 **onMeasure**、**onLayout** 和 onDraw 三个阶段，熟悉使用 **ValueAnimator** 等 API 实现属性动画效果。'),
+      p('- *掌握 Jetpack 使用:* 熟悉Jetpack框架中的各个组件，例如 **LiveData**、**ViewModel**、DataBinding 等，能够根据具体的业务需求选择合适的组件。'),
     ],
   },
   {
-    title: '个人作品',
+    title: '自我评价',
     content: [
-      h(`个人主页`),
       p(
-        `以[nalgd.top](https://nalgd.top)作为个人域名，使用 rem + 仿 flexible.js 完成多端适配，iconfont 完成小图标制作。`
+        '- *追求高质量代码:* 编写代码常常坚持高标准，力求写出结构清晰、易于维护、可扩展性强的代码。注重细节和整体思路，喜欢追求代码的简洁和可读性。'
       ),
-      h(`个人博客`),
       p(
-        `折腾过WordPress、Jekyll，也尝试自己制作，最终选用 hexo 驱动，作为日常随笔记录，随性更新。`
+        '- *自我驱动:* 有强烈的好奇心和求知欲，具有较强的自我驱动能力，能够主动发现问题并积极地探索解决方案。'
       ),
-      h(`“独帅闯将营” · 微信小游戏`),
       p(
-        `一款以中国象棋文化为背景的微信跑酷类小游戏，基于 LayaAir3D 引擎 + TypeScript 开发，仅为尝试 Web 技术在游戏开发方面的应用，以学习为主要目的，获得微信小程序应用开发赛（小游戏类别）全国三等奖。`
+        '- *善于团队协作:* 担任移动副站，具有良好的沟通能力和团队协作能力，能与其他成员进行高效地沟通和协作。'
       ),
     ],
   },
   {
     title: '项目经历',
     content: [
-      p(`**重邮小帮手(校团委官方微信服务号)**`),
-      p(`校内学生关注率第一(90%+)的公众号`),
+      p(`## 掌上重邮APP`, '(2021.8 - 至今)[Link](https://github.com/RedrockMobile/CyxbsMobile_Android)'),
+      p(`重庆邮电大学首款整合校园与生活的 App。`),
+      p('该项目自 15 年维护至今，代码总行数超过百万行，采用 **Kotlin 语言** 编写，应用了 **MVVM** 架构模式，同时也使用了**JetPack组件库**和**ARouter多模块**技术。'),
+      p('在此期间曾负责了 store 模块、course 模块的开发，以及基层模块的迁移工作。'),
+      p(),
+      p('项目难点:'),
       p(
-        `主管功能开发及人员调配，主持使用 Vue.js + ElementUI 重构内部公众号后台管理系统。`
-      ),
-      p(`重构公众号内嵌四六级成绩查询功能，增加准考证信息自动识别 。`),
-      p(`重构公众号内嵌课表查询功能，完成与掌上重邮 APP 的数据共通。`),
-      p(`**“青春邮约”微信小程序**`),
-      p(`校级组织线上报名系统`),
-      p(
-        `为同时在 QQ/微信端运行，整个项目借助 Taro 在原基础上重新构建，考虑到数据复杂度不高，使用 Context 进行数据管理。针对组织内部人员，使用 Ant Design 搭建后台页面，借助公众号/腾讯云短信业务进行录取信息推送。`
-      ),
-      p(`*上线两天内 PV 27000+*`),
-      p(`**重邮新生专题网**`, `[Source](https://wx.redrock.team/game/welcome2018/#/)`),
-      p(`帮助新生快速了解校园的专题网站`),
-      p(`此项目一年一版、拥有完整开发流程，我负责 2018 版 PC 端，也是做过的第一个完整项目，借助 git 和他人合作开发，使用了很多 CSS3 的特性。`),
-      p(`*上线一月内 UV 6k+，PV 2w+。*`),
-      p(`**重庆邮电大学“网址大全”**`, `[Source](https://wx.redrock.team/web/)`),
-      p(`服务于校内师生的内网一站式导航平台`),
-      p(
-        `刚接触 Vue 不久时完成，实现了根据配置文件动态生成站点内容。在项目实践中自己设计了一套简单的轮播图组件。`
+        '- 在 course 模块开发时，遇到 *BottomSheetBehavior* 嵌套横向 VP2 和竖直 RV 时，导致竖直 RV 无法与 Behavior 进行嵌套滑动的问题。' +
+        '翻阅源码得知 BottomSheetBehavior 只能跟第一个布局进行嵌套滑动，最后在 VP2 外包一层布局用于中转嵌套滑动解决问题。   ' +
+        '[Source>](https://github.com/RedrockMobile/CyxbsMobile_Android/blob/develop/module_course/lib_course/src/main/java/com/mredrock/cyxbs/lib/course/widget/VpBottomSheetNestedView.kt)'
       ),
       p(
-        `未借助中后台框架独立完成配套后台管理页面的搭建，实践了大量数据结构知识。`
+        '- 在 store 模块开发时遇到需要嵌套 RV 并上下滑动的触摸事件处理，考虑了 AppBarLayout、**CoordainatorLayout** 等多种方案，' +
+        '最后使用**自定义 ViewGroup**采取**嵌套滑动**方案实现产品需求。   ' +
+        '[Source>](https://github.com/RedrockMobile/CyxbsMobile_Android/blob/develop/module_store/src/main/java/com/mredrock/cyxbs/store/utils/widget/SlideUpLayout.kt)',
       ),
+      p(
+        '- 在使用 NestedScrollView 中发现与 RV 嵌套会导致 RV 懒加载失效，' +
+        '通过阅读源码发现 NSV 提供给子 View 的测量模式为 *UNSPECIFIED* 并且高度也为 0，最后通过重写 NSV 的 *measureChildWithMargins()* 解决问题。' +
+        '[Link>](https://github.com/985892345/CustomViewWithAnimStudy#2nestedscrollview-%E5%B5%8C%E5%A5%97-rv-%E5%A4%8D%E7%94%A8%E5%A4%B1%E6%95%88)'
+      ),
+      p('## 网状布局NetLayout', '[Link](https://github.com/985892345/NetLayout)'),
+      p('一个支持重叠、长度和宽度的不统一的网状布局'),
+      p('为了更好的解耦实现掌上重邮中课表的功能，本项目是支撑整个课表的底层控件，采取纯自定义 View 开发。'),
+      p(),
+      p('项目难点：'),
+      p(
+        '- 在掌上重邮 course 模块开发中，为了实现多指触摸事件的分离和解耦，设计了专门用于分离多指事件的帮助类，采用组合的形式进行添加和处理。   ' +
+        '[Source>](https://github.com/985892345/NetLayout/tree/master/netlayout/src/main/java/com/ndhzs/netlayout/touch/multiple)'
+      ),
+      p('- 为了支持行和列高度和宽度动态变化，使用了 **SparseArray** 用于保存行和列的比重，然后在 **onMeasure** 中重新计算行和列的宽高，最后在 **onLayout** 中进行布局。'),
+      p('- 为了更好的进行扩展，参考了 RV 中 OnItemTouchListener、 ItemDecoration 的设计，提供了触摸事件分离的接口、绘制回调接口以及其他扩展接口。'),
+      p(),
+      p('## 多人开发项目WanAndroid', '[Link](https://github.com/VegetableChicken-Group/WanAndroid_Multi)'),
+      p('大二期间搭建的用于大一学员练习的多人开发项目。'),
+      p('其中使用了 **Composing builds** 构建多模块开发，并合理抽离 Base 层减少模板代码。')
     ],
   },
 ]

@@ -38,9 +38,9 @@
     box-sizing border-box
     border-right 1px solid rgba($mainColor, .15)
     column-count 2
-    column-gap 30px
+    column-gap 34px
     width 100%
-    padding 30px 32px 0
+    padding 36px 44px 0
 
 
   @media screen and (max-width 1024px)
@@ -59,11 +59,15 @@
     color $mainFontColor
     padding-bottom 18px
     break-inside avoid
+    padding-left 2px
     .need-bold
       font-weight 700
       font-size $articleSize + 1px !important
       line-height 1.7em
       padding-top .3em
+    h2
+      font-size 18.5px
+      color $mainColor
     h3
       font-size 24px
       size 100% auto

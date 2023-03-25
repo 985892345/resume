@@ -81,18 +81,18 @@ export default {
 @import '../config/index.styl'
 
 header
-  size 100% 242px
+  size 100% 250px
   color white
   background $mainColor
   border-radius 5px 5px 0 0
   box-sizing border-box
-  padding 25px 36px 25px
+  padding 50px 50px 50px
   overflow hidden
 
   .qrcode
     float left
-    size 242px
-    margin -25px 25px 0 -36px
+    size 250px
+    margin -50px 50px 0 -50px
     overflow hidden
     background white
     img

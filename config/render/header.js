@@ -3,23 +3,22 @@
  */
 export default {
   // 姓名
-  name: '牛奥林',
+  name: '郭祥瑞',
   // GitHub地址
   // 会显示在姓名的右方
   // 在手机上会显示成小logo
-  github: 'lin0102',
+  github: '985892345',
   // 意向的工作
   // 建议不超过8个字
-  job: '前端开发工程师',
+  job: 'Android开发工程师',
   /**
    * 简介栏
    * 最多可以有三个
    * 建议区分各种信息的层级
    */
   profiles: [
-    '男 · 2021届本科',
-    '重庆邮电大学 · 计算机科学与技术',
-    '绩点3.38 · 综合成绩前 15%（40/305）'
+    '男 · 2024届本科',
+    '重庆邮电大学 · 软件工程',
   ],
   /**
    * 信息栏
@@ -34,9 +33,8 @@ export default {
    * 请提issue
    */
   contacts: [
-    { address: 'gdnal@outlook.com', type: 'mail' },
-    { address: 'nalgd.top', type: 'blog' },
-    { address: '15518652827', type: 'tell' }
+    { address: 'guoxiangrui2002@163.com', type: 'mail' },
+    { address: '18523528538', type: 'tell' },
   ],
   /**
    * @param {[Boolean]} 是否显示微信二维码
@@ -49,5 +47,5 @@ export default {
    * 是否在HTML文档页面显示二维码
    * 若为false，则只在打印PDF时显示二维码
    */
-  showWeChatQrCodeInHTML: true
+  showWeChatQrCodeInHTML: false
 }
