@@ -10,7 +10,7 @@ export default {
   github: '985892345',
   // 意向的工作
   // 建议不超过8个字
-  job: 'Android开发工程师',
+  job: 'Android 开发工程师',
   /**
    * 简介栏
    * 最多可以有三个

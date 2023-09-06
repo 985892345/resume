@@ -17,12 +17,12 @@ export default {
    * 默认值为: 张xx(小张)的个人简历 - 搬砖工程师
    * 即默认会展示你的姓名，昵称，职位字段
    */
-  description: '郭祥瑞（985892345）的个人简历 - Android开发工程师',
+  description: '郭祥瑞（985892345）的个人简历 - Android 开发工程师',
   /**
    * 生成PDF的默认文件名
    * 若不指定，默认为HTML页面的title去除空格后的结果
    */
-  printName: 'Android开发工程师-郭祥瑞-重庆邮电大学',
+  printName: 'Android开发工程师-郭祥瑞',
   /**
    * 设定 Github Logo 地址
    * 若为空，则不显示

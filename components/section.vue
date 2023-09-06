@@ -38,9 +38,9 @@
     box-sizing border-box
     border-right 1px solid rgba($mainColor, .15)
     column-count 2
-    column-gap 34px
+    column-gap 40px
     width 100%
-    padding 46px 44px 0
+    padding 46px 40px 0
 
 
   @media screen and (max-width 1024px)

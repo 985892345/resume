@@ -151,9 +151,8 @@ header
             font-family 'Museo Sans', $fontFamily
     h2
       float right
-      font-weight 300
+      font-weight 500
       font-size 30px
-      opacity .8
       margin-top 20px
 
   .tit-bottom
